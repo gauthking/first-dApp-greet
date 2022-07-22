@@ -26,6 +26,9 @@ function App() {
       console.log("Greeting is SET!")
       setloading(false)
     }
+    else {
+      alert("Install Metamask to continue")
+    }
   }
 
   // this function is going to connect to the metamask account of the user
