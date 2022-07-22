@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Greeter from "./artifacts/contracts/Greeter.sol/Greeter.json"
 import Loader from "./Loader";
 
-const greeterAddress = "0xE2C1364498675ED5EfDe451E455a9aD2800A4474";
+const greeterAddress = "0xE2C1364498675ED5EfDe451E455a9aD2800A4474"; // deployed address for FTM testnet, you can modify it according to the testnet you deployed your smart contract on..
 
 function App() {
   const [greeting, setGreetingValue] = useState("");
