@@ -17,4 +17,9 @@ This project demonstrates a basic dApp that allows you to set and fetch messages
 
 4 - now deploy it - `npx hardhat run scripts/deploy.js --network networkname`
 
+5 - update the greeterAddress inside of the App.js file with address obtained after deploying the contract
+
+![image](https://user-images.githubusercontent.com/90638995/180465521-7e7a579f-baf3-4a4e-a583-d5789ddf3cbb.png)
+
+
 5 - run the react app - `npm start` or `npm run start` and you can interact with the dApp
